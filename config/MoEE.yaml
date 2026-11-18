@@ -1,0 +1,130 @@
+romanempire:
+  lr: 0.05
+  l2_coef: 0.0005
+  patience: 200
+  normalize: -1
+  nhidden: 32
+  hop_num: 5
+  dropout: 0.5
+  pe_dim: 16
+  lam: 0.2
+  r: 0.1
+
+
+amazonratings:
+  lr: 0.001
+  l2_coef: 0.0005
+  patience: 400
+  normalize: 1
+  nhidden: 256
+  hop_num: 7
+  dropout: 0.4
+  pe_dim: 8
+  lam: 0.2
+  r: 0.5
+
+
+flickr:
+  lr: 0.01
+  l2_coef: 0.000005
+  patience: 200
+  normalize: 1
+  nhidden: 32
+  hop_num: 5
+  dropout: 0.9
+  pe_dim: 32
+  lam: 10
+  r: 0.7
+
+
+wikics:
+  lr: 0.001
+  l2_coef: 0.0005
+  patience: 400
+  normalize: -1
+  nhidden: 256
+  hop_num: 2
+  dropout: 0.2
+  pe_dim: 64
+  lam: 10
+  r: 0.8
+
+
+photo:
+  lr: 0.005
+  l2_coef: 0.000001
+  patience: 100
+  normalize: -1
+  nhidden: 32
+  hop_num: 5
+  dropout: 0.4
+  pe_dim: 64
+  lam: 10
+  r: 0.1
+
+
+blogcatalog:
+  lr: 0.001
+  l2_coef: 0.
+  patience: 100
+  normalize: 1
+  nhidden: 256
+  hop_num: 8
+  dropout: 0.7
+  pe_dim: 128
+  lam: 0.2
+  r: 0.8
+
+
+penn94:
+  lr: 0.01
+  l2_coef: 0.00005
+  patience: 100
+  normalize: -1
+  nhidden: 16
+  hop_num: 6
+  dropout: 0.6
+  pe_dim: 32
+  lam: 5
+  r: 0.4
+
+
+genius:
+  lr: 0.01
+  l2_coef: 0.0000005
+  patience: 400
+  normalize: 1
+  nhidden: 16
+  hop_num: 2
+  dropout: 0
+  pe_dim: 16
+  lam: 1
+  r: 0.2
+  undirected: True
+
+
+snappatents:
+  lr: 0.05
+  l2_coef: 0.
+  patience: 400
+  normalize: 1
+  nhidden: 8
+  hop_num: 2
+  dropout: 0
+  pe_dim: 4
+  lam: 2
+  r: 0.2
+
+
+ogbnarxiv:
+  lr: 0.005
+  l2_coef: 0.0005
+  patience: 200
+  normalize: 1
+  nhidden: 64
+  hop_num: 7
+  dropout: 0.3
+  pe_dim: 32
+  lam: 0.1
+  r: 0.4
+  undirected: True
