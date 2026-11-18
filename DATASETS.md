@@ -19,6 +19,8 @@ provider's terms.
 Run commands from the repository root. For Yandex, pass the downloaded
 NPZ directly to the converter. It uses the published masks in that file
 and builds the bidirectional graph following the upstream loader.
+For Roman-Empire, the upstream masks differ from the fixed masks used
+for the paper, so this example follows the upstream splits.
 
 ```sh
 python prepare_data.py --dataset amazonratings --input raw/amazon_ratings.npz
